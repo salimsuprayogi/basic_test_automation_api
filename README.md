@@ -68,6 +68,15 @@
         3. Http Method [ Get, Post, Put, Delete ]
         4. Report Testing Memiliki Format Html
 
+## Run Program
+        -ubah di file package.json
+        "scripts": {
+            "test": "mocha test.js --reporter mochawesome --reporter-options reportDir=reports/mochawesome/  --timeout 10000",
+            "test_object": "mocha ./test --recursive --reporter mochawesome --reporter-options reportDir=reports/mochawesome/  --timeout 10000"
+        }
+        -npm run test [ untuk menjalankan file tests ]
+        -npm run test_object [ untuk menjalankan folde page object ]
+
 # Atlas Id
 
 ## Teacher
