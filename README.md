@@ -105,6 +105,6 @@
         https://reqres.in/
         https://github.com/atlasidtech/learn-api-test-js
 
-## Author 
+## Author Resume
 
         Salim Suprayogi
