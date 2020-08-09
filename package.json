@@ -1,0 +1,17 @@
+{
+    "devDependencies": {
+        "chai": "*",
+        "mocha": "*",
+        "mochawesome": "^6.1.1",
+        "supertest": "^4.0.2"
+    },
+    "//": "mocha is our preference, but you can use any test runner you like",
+    "scripts": {
+        "test": "mocha test.js --reporter mochawesome --reporter-options reportDir=reports/mochawesome/  --timeout 10000",
+        "test_object": "mocha ./test --recursive --reporter mochawesome --reporter-options reportDir=reports/mochawesome/  --timeout 10000"
+    },
+    "dependencies": {
+        "chai": "^4.2.0",
+        "chai-http": "^4.3.0"
+    }
+}
